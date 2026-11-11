@@ -1,0 +1,54 @@
+TASK 23 – MYSQL OUTPUTS
+SQL Aggregation Basics
+
+Q1 Total customers
+total_customers
+5
+
+Q2 Total orders
+total_orders
+8
+
+Q3 Total sales revenue
+total_revenue
+7542.0
+
+Q4 Average order value
+average_order_value
+942.75
+
+Q5 Minimum and maximum order value
+minimum_order_value | maximum_order_value
+510.0 | 1760.0
+
+Q6 Orders by customer
+CustomerID | CompanyName | order_count
+C001 | Blue Sky Traders | 2
+C002 | Green Leaf Stores | 2
+C003 | Metro Mart | 2
+C004 | Fresh Basket | 1
+C005 | City Supplies | 1
+
+Q7 Revenue by customer
+CustomerID | CompanyName | customer_revenue
+C002 | Green Leaf Stores | 2352.0
+C003 | Metro Mart | 2130.0
+C001 | Blue Sky Traders | 1670.0
+C005 | City Supplies | 730.0
+C004 | Fresh Basket | 660.0
+
+Q8 Product price statistics
+average_price | minimum_price | maximum_price
+282.0 | 60.0 | 800.0
+
+Q9 Quantity sold by product
+ProductID | ProductName | total_quantity_sold
+5 | Notebook | 19
+1 | Tea Pack | 10
+4 | Cooking Oil | 7
+2 | Coffee Jar | 4
+3 | Rice Bag | 4
+
+Q10 Average freight
+average_freight
+37.5
